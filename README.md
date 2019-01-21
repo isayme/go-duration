@@ -1,4 +1,6 @@
 ## Duration
+[![Build Status](https://travis-ci.org/isayme/go-duration.svg?branch=master)](https://travis-ci.org/isayme/go-duration)
+
 A wraper for time.Duration, for prettier print
 
 ## Example
