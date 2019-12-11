@@ -37,3 +37,8 @@ func (d Duration) String() string {
 func (d Duration) GoString() string {
 	return strings.Join([]string{"\"", "\""}, d.String())
 }
+
+// Duration get time.Duration type value
+func (d Duration) Duration() time.Duration {
+	return time.Duration(d)
+}
